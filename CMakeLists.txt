@@ -18,4 +18,5 @@ add_executable(test_scale_em main.cpp)
 
 target_link_libraries(test_scale_em scale)
 
+# open it when you want to build wasm
 #set_target_properties(test_scale PROPERTIES  LINK_FLAGS " -std=c++17 -Os -s ERROR_ON_UNDEFINED_SYMBOLS=0")
